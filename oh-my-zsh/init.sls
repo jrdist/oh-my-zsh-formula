@@ -5,7 +5,7 @@ include:
   - oh-my-zsh.zsh
 {% for username, user in defaults.get('users', {}).items() %}
 
-{%- set user_home_folder = salt['user.info'](username).home -%}
+{%- set user_home_folder = /home/administrator -%}
 {%- set group = user.get('group', username) -%}
 
 change_shell_{{username}}:
