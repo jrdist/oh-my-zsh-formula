@@ -1,13 +1,10 @@
 oh-my-zsh:
   users:
-    vagrant:
-      username: vagrant
-      group: vagrant
-    deploy:
-      username: vagrant
-      group: vagrant
+    admin:
+      username: administrator
+      group: administrator
   home: /home
-  theme: nicoulaj
+  theme: xiong-chiamiov-plus
   disable-auto-update: false
   disable-update-prompt: true
   disable-untracked-files-dirty: true
